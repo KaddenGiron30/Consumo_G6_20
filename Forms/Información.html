@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Información</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" 
+    rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" 
+    crossorigin="anonymous">
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="home.html"> 
+                  <img src="https://i0.wp.com/faces.unah.edu.hn/astroaula/theme/overlay/galeria/img/logo_unah.png" alt="" width="50" height="85">
+                   Grupo 6 </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="Información.html">Información</a>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Consumo API'S Rest Grupo 6
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item" href="/Forms/Socio.html">Socios de Negocio</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="/Forms/Materiales.html">Materiales</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="/Forms/Facturas.html">Facturas Cliente</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="/Forms/Pedidos.html">Pedidos Proveedor</a></li>
+                    </ul>
+                  </li>
+                </ul>
+                <form class="d-flex">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+              </div>
+            </div>
+          </nav>
+    </header>
+    <div class="container">
+        <div class="consulta mt-4" >
+            <div class="row">
+                <div class="col-6">
+                    <h1>
+                        Información
+                    </h1>
+                </div>
+            </div>
+            <div class="box-body">
+                <div class="table table-responsive">
+                    <div class="table table-hover" class="table table-sm">
+                        <thead>
+                            <table class="table table-success table-striped">
+                                <tr>
+                                    <h2>
+                                        <th scope="row"> Nombre </th>
+                                        <th scope="row"> Formulario Desarrollado </th>
+                                        <th scope="row"> Funciones del Formulario </th>
+                                    </h2>
+                                </tr>
+                                <tr>
+                                    
+                                    <td> Silvia Yaneth Salinas Corralez </td>
+                                    <td> Pedidos Proveedor</td>
+                                    <td>
+                                        *La funcion CargarPedidos permite cargar todos los datos y poder visualizarlos.<br>
+                                        *La funcion AgregarPedido permite insertar nuevos pedidos.<br>
+                                        *La funcion CargarPedido permite cargar un dato mediante el Id para que pueda ser actualizado o eliminado.<br>
+                                        *La funcion ActualizarPedido permite actualizar ya sea uno o varios datos de los pedidos.<br>
+                                        *La funcion EliminarPedido permite eliminar pedidos.
+                                    </td>
+                                </tr>
+                                <tr>
+                                    
+                                    <td> German Rigoberto Reyes Domínguez </td>
+                                    <td>Materiales</td>
+                                    <td>
+                                        *La función CargarMateriales para la visualización de los datos.<br>
+                                        *La funcion AgregarMaterial para ingresar nuevos materiales a los datos.<br>
+                                        *La funcion CargarMaterial para la extracción de un solo dato.<br>
+                                        *La funcion ActualizarMaterial para efectivamente cambiar o modificar los datos.<br>
+                                        *La funcion EliminarMaterial para eliminar los datos no deseados
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td> Jeymy Yamileth Ortiz Gomez </td>
+                                    <td> Facturas Cliente </td>
+                                    <td>*La funciòn CargarFacturas permite visualizar los datos.<br>
+                                        *La función AgregarFactura permite insertar nuevas facturas a los datos.<br>
+                                        *La función CargarFactura permite seleccionar mediante el parámetro "ID" una factura en específico.<br>
+                                        *La función ActualizarFactura permite actualizar los datos de la factura. <br>
+                                        *La función EliminarFactura permite eliminar las facturas no deseadas.
+                                    </td>
+                                </tr>
+                                <tr>
+                                    
+                                    <td> Kadden Wesley Girón Velásquez </td>
+                                    <td>Socios de Negocio</td>
+                                    <td>
+                                        *La función CreacionSocio para la visualización de los datos.<br>
+                                        *La funcion AgregarSocio para ingresar nuevos socios a los datos.<br>
+                                        *La funcion CargarSocio para la extracción de un solo dato.<br>
+                                        *La funcion ActualizarSocio para efectivamente cambiar o modificar los datos.<br>
+                                        *La funcion EliminarSocio para eliminar los datos no deseados
+                                    </td>
+                                </tr>
+                            </table>
+                        </thead>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" 
+    crossorigin="anonymous"></script>
+</body>
+</html>
